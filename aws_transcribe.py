@@ -3,10 +3,10 @@ import time
 import boto3
 import urllib.request
 import os
-import jsonuni
+import json
 import sys
 
-# Usage: python3 aws_transport.py job_name file_uri mp3 landuage_code download_destination
+# Usage: python3 aws_transport.py job_name file_uri audio_type landuage_code download_destination
 # Example: python3 aws_transport.py audio_1 "https://...." mp3 en-US "/downloads/transcript.txt"
 
 
